@@ -5,6 +5,10 @@
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 200px;
+    padding: 10px;
+    border-color: #cccccc;
+    border-width: 2px;
+    text-align: center;
 }
 
 .menuItems{
@@ -21,14 +25,14 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    background-color: #ffffff;
 }
 
 li a {
     display: inline-block;
     color: #777777;
     text-align: center;
-    padding: 14px 14px;
+    padding: 11px 14px;
     text-decoration: none;
     width: 8%;
 }
@@ -54,16 +58,15 @@ body{
     width: 100%;
     color: #777777;
     margin: 5px;
-    background-color: burlywood;
+    background-image: url('../images/textured_paper.png');
 }
 
 div{
-    width: 960px;
     border: 2px solid #dddddd;
-    background-color: #ffffff;
     padding: 15px;
     margin: 15px;
     float: center;
+    background-color: #ffffff;
 }
 
 img{
@@ -72,20 +75,35 @@ img{
 }
 
 footer{
-    clear: both;
     background-color: #666666;
     text-align: center;
     color: #ffffff;
-    overflow: auto;
     padding: 15px;
-    -moz-float-edge: bottom;
 }
 
 hr {
-    clear: both;
     margin-top: 0px;
-    border-width: 2px;
+    border-width: 1px;
     color: #666666;
     width: 100%;
     overflow: auto;   
+}
+
+.seperator {
+    float:right;
+    height: 35px;
+    width: 1px;
+    background-color: #777777;
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px; 
+}
+
+.clearfix {
+    clear:both;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
 }
