@@ -2,12 +2,9 @@
     background-color: #4aaaa5;
     font-size: 24px;
     float: left;
-    color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 200px;
-    padding: 10px;
-    border-color: #cccccc;
-    border-width: 2px;
+    padding: 9px;
     text-align: center;
 }
 
@@ -91,7 +88,7 @@ hr {
 
 .seperator {
     float:right;
-    height: 35px;
+    height: 40px;
     width: 1px;
     background-color: #777777;
     padding: 0px;
@@ -100,10 +97,18 @@ hr {
 }
 
 .clearfix {
+    width: 960px;
     clear:both;
 }
 
 header {
+    position:fixed;
     background-color: #ffffff;
     border-color: #cccccc;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 45px;
+    border-style: none none solid none;
+    border-width: 1px;
 }
