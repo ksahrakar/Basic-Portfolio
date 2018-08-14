@@ -157,7 +157,6 @@ button{
 }
 
 #portfolioDiv{
-    position: relative;
     clear: both;
     width: 960px;
     margin: auto;
@@ -169,6 +168,6 @@ button{
     margin-bottom: 45px;
 }
 
-img{
-    
+.labelPic{
+
 }
