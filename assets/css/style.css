@@ -1,11 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 #nameLogo{
     background-color: #4aaaa5;
     font-size: 24px;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 200px;
-    padding: 9px;
+    width: 25%;
+    padding: 8px;
     text-align: center;
+    color: #ffffff;
 }
 
 .menuItems{
@@ -15,34 +19,38 @@
 .menuItems:hover{
     background-color: #b7b8b6;
     color: #b5f6f3;
-    font-family: monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
 }
 
 ul{
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #ffffff;
+    width: 960px;
 }
 
 li a {
     display: inline-block;
     color: #777777;
     text-align: center;
-    padding: 11px 14px;
+    padding: 12.5px 14px;
     text-decoration: none;
-    width: 8%;
+    width: 10%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #4aaaa5;
     text-align: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: lighter;
 }
 
 h2{
     font-size: 24px;
+    margin: 0 0 15px 0;
+    font-weight: 500;
+    padding: 14px 14px 14px 10px;
 }
 
 p{
@@ -54,46 +62,56 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
     color: #777777;
-    margin: 5px;
     background-image: url('../images/textured_paper.png');
+    margin: 0;
 }
 
-div{
+#wrapper{
+    clear: both;
+    width: 960px;
+    margin: auto;
+    margin-top: 45px;
     border: 2px solid #dddddd;
-    padding: 15px;
-    margin: 15px;
-    float: center;
+    border-top: 0px;
+    padding: 0 15px 0 15px;
     background-color: #ffffff;
+    margin-bottom: 45px;
 }
 
 img{
     float: left;
-    padding: 15px;
+    padding: 15px 15px 15px 0;
 }
 
 footer{
+    clear:both;
+    width:100%;
     background-color: #666666;
     text-align: center;
     color: #ffffff;
-    padding: 15px;
+    padding: 10px;
+    border-top: 4px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
 }
 
 hr {
     margin-top: 0px;
-    border-width: 1px;
-    color: #666666;
+    border-width: 0 0 2px 0;
+    border-color: #666666;
     width: 100%;
     overflow: auto;   
 }
 
 .seperator {
     float:right;
-    height: 40px;
+    height: 24px;
     width: 1px;
     background-color: #777777;
     padding: 0px;
-    margin: 0px;
-    border-width: 0px; 
+    margin-top: 10px;
+    border-width: 0px
+
 }
 
 .clearfix {
@@ -104,11 +122,53 @@ hr {
 header {
     position:fixed;
     background-color: #ffffff;
-    border-color: #cccccc;
     left: 0;
-    right: 0;
     top: 0;
     height: 45px;
-    border-style: none none solid none;
-    border-width: 1px;
+    width:100%;
+    margin:0 auto;
+    border-bottom: 2px solid #cccccc;
+}
+
+#contactDiv{
+    clear: both;
+    width: 960px;
+    margin: auto;
+    margin-top: 45px;
+    border: 2px solid #dddddd;
+    border-top: 0px;
+    padding: 0 15px 15px 15px;
+    background-color: #ffffff;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    width: 100px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#portfolioDiv{
+    position: relative;
+    clear: both;
+    width: 960px;
+    margin: auto;
+    margin-top: 45px;
+    border: 2px solid #dddddd;
+    border-top: 0px;
+    padding: 0 15px 600px 25px;
+    background-color: #ffffff;
+    margin-bottom: 45px;
+}
+
+img{
+    
 }
