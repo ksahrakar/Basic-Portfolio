@@ -1,1 +1,1 @@
-This is the first attempt at a portfolio for publishing and distribution. Smple HTML and CSS.
+This is the first attempt at a portfolio for publishing and distribution. Smple HTML and CSS. It is an older version and is published at https://ksahrakar.github.io/Basic-Portfolio/. NEWER VERSION IN GITHUB AS WELL.
